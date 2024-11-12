@@ -1,0 +1,222 @@
+/* Estrutura do site */
+body{
+    background: #FFF url(../imagens/fundo.png) repeat-x;
+    font: 12px Montserrat, Segoe UI, Helvetica, Montserrat, sans-serif;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* Logo */
+#logo h1{
+    float: left;
+}
+
+#logo a{
+    width: 248px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+a:link, a:active, a:visited{
+    text-decoration: none;
+    font-size: 16px;
+    color: #302334;
+}
+
+a:hover{
+    color: #d269e6;
+}
+
+/* Navegacao */
+header{
+    padding: 15px 0;
+    height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    color: whitesmoke;
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav ul li a:visited{
+    color: whitesmoke;
+}
+
+nav ul li a:hover{
+    color: #d269e6;
+    border-bottom: 1px solid #d269e6;
+}
+
+/* Principal */
+#conteudo{
+    width: 710px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+aside{
+    width: 350px;
+    float: right;
+    background: #b9a4b4;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+section#visita{
+    background: #302334;
+    padding: 30px 30px 30px 30px;
+    margin-top: 10x;
+}
+
+section#galeria{
+    padding: 0 27px 0 27px;
+}
+
+section#galeria a{
+    display: block;
+    background: url(../imagens/fundo_foto.png) no-repeat;
+    float: left;
+    padding: 18px 15px 17px 15px;
+    margin: 10px 0 0 15px;
+}
+section#galeria img{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin: 10px 0 0 25px;
+}
+
+#exposicoes ul li{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+h3{
+    color: #302334;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h4{
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Formularios */
+input{
+    height: 20px;
+    width: 80px;
+    background: whitesmoke;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo{
+    border: 1x solid #FFF;
+}
+
+input.botao{
+    background: #da5ef2;
+    color: whitesmoke;
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+    border: 1px outset #302334;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: none;
+    padding: 20px;
+}
+
+legend{
+    display: none;
+}
+
+label{
+    font-size: 1.3em;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+/* Rodape */
+footer{
+    clear: both; 
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../imagens/fundo_rodape.png) no-repeat center top;
+}
+
+footer > p {
+    color: #302334;
+    font-size: 16px;
+    text-align: justify;      
+    text-indent: 25px;       
+    display: flex;           
+    justify-content: center;  
+}
+
+footer > p a {
+    font-weight: bold;
+    padding: 2px 10px;      
+    display: inline-block; 
+    text-align: center;   
+}
+
+#link_footer{
+    clear: both;
+    padding: 0;
+    margin: 0 !important;
+    font-weight: bold;   
+    text-align: center;  
+}
+
+
